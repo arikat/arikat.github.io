@@ -1,13 +1,17 @@
- Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
-
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+jobs:
+ - name: A
+   schedule: "0 0/5 * 1/1 * ? *"
+   type: mongodb.cluster
+   config:
+     host: mongodb://localhost:27017/admin?replicaSet=rs
+     minSecondaries: 2
+     minOplogHours: 100
+     maxSecondaryDelay: 120
+ - name: B
+   schedule: "0 0/5 * 1/1 * ? *"
+   type: mongodb.cluster
+   config:
+     host: mongodb://localhost:27017/admin?replicaSet=rs
+     minSecondaries: 2
+     minOplogHours: 100
+     maxSecondaryDelay: 120
