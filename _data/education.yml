@@ -1,17 +1,8 @@
-jobs:
- - name: A
-   schedule: "0 0/5 * 1/1 * ? *"
-   type: mongodb.cluster
-   config:
-     host: mongodb://localhost:27017/admin?replicaSet=rs
-     minSecondaries: 2
-     minOplogHours: 100
-     maxSecondaryDelay: 120
- - name: B
-   schedule: "0 0/5 * 1/1 * ? *"
-   type: mongodb.cluster
-   config:
-     host: mongodb://localhost:27017/admin?replicaSet=rs
-     minSecondaries: 2
-     minOplogHours: 100
-     maxSecondaryDelay: 120
+degree:
+ - degree: PhD, Biochemistry
+   uni: University of Georgia
+   year: 2017 &mdash; present
+
+ - degree: MS, Chemistry
+  uni: University of California, San Diego
+  year: 2015 &mdash; 2017
