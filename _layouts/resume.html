@@ -118,39 +118,15 @@
 
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
-     # <section class="content-section">
+      <section class="content-section">
 
-      #  <header class="section-header">
-      #    <h2>Skills</h2>
-     #   </header>
-     #   {% for skill in site.data.skills %}
-     #   <div class="resume-item">
-     #     <h4 class="resume-item-details">{{ skill.skill }}</h4>
-     #     <p class="resume-item-copy">{{ skill.description }}</p>
-          
-         # <a class="twitter-timeline" href="https://twitter.com/Aaryakat">Tweets by Aaryakat</a>
-         # <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>         
-         # <a class="twitter-timeline"
-         #   href="https://twitter.com/twitterdev">
-         # Tweets by @TwitterDev
-         # </a>
-     #   </div>
-        
-        <section class="content-section">
-          <div class="resume-item">
-            <div class="row">
-             <div class="col-md-8">
-               ...
-             </div>
-             <div class="col-md-4">
-               <div>
-                 <a class="twitter-timeline" href="https://twitter.com/CodeForBuffalo?ref_src=twsrc%5Etfw">Tweets by CodeForBuffalo</a>
-                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-               </div>
-             </div>
-            </div>
-          </div>
-        </section>
+        <header class="section-header">
+          <h2>Skills</h2>
+        </header>
+        {% for skill in site.data.skills %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ skill.skill }}</h4>
+          <p class="resume-item-copy">{{ skill.description }}</p>
         
         {% endfor %}
 
