@@ -14,7 +14,7 @@ resume_name:                    "Aarya Venkat"
 resume_title:                   "Biochemistry PhD Student"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "aarya@uga.edu"
+resume_contact_email:           "https://docs.google.com/viewer?url=https://github.com/arikat/Arikat-Additional-Files/raw/master/Aarya_CV.pdf"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "678-404-1666"
@@ -40,7 +40,7 @@ resume_looking_for_work:        "yes"
 resume_social_links:
   resume_github_url:            "https://github.com/arikat"
   resume_linkedin_url:          "https://www.linkedin.com/in/aaryavenkat"
-  resume_website_url:           "https://docs.google.com/viewer?url=https://github.com/arikat/Arikat-Additional-Files/raw/master/Aarya_CV.pdf"
+  #resume_website_url:           "https://docs.google.com/viewer?url=https://github.com/arikat/Arikat-Additional-Files/raw/master/Aarya_CV.pdf"
   resume_medium_url:            "https://medium.com/@aarya"
   resume_twitter_url:           "http://twitter.com/aaryakat"
   resume_instagram_url:         "https://arikat.github.io/art"
