@@ -42,7 +42,7 @@ resume_social_links:
   resume_linkedin_url:          "https://www.linkedin.com/in/aaryavenkat"
   #resume_website_url:           "https://docs.google.com/viewer?url=https://github.com/arikat/Arikat-Additional-Files/raw/master/Aarya_CV.pdf"
   resume_medium_url:            "https://medium.com/@aarya"
-  #resume_twitter_url:           "https://mstdn.social/@aarya"
+  resume_mastodon_url:          "https://mstdn.social/@aarya"
   resume_instagram_url:         "https://arikat.github.io/art"
 
 resume_print_social_links:      true
