@@ -1,6 +1,6 @@
 # Site settings
 title: "About Aarya"
-description: "Computational Biologist at the University of Georgia"
+description: "Protein Engineer"
 
 # Build settings
 markdown: kramdown
@@ -10,8 +10,8 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Aarya Venkat"
-resume_title:                   "Computational Biologist"
+resume_name:                    "Aarya Venkat, PhD"
+resume_title:                   "Data Scientist"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "https://docs.google.com/viewer?url=https://github.com/arikat/Arikat-Additional-Files/raw/master/Aarya_CV.pdf"
