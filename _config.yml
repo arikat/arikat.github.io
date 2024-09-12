@@ -43,7 +43,7 @@ resume_social_links:
   resume_website_url:           "https://mstdn.social/@aarya"
   resume_medium_url:            "https://aarya.medium.com/"
   resume_instagram_url:         "https://arikat.github.io/art"
- # resume_mastodon_url:          "https://mstdn.social/@aarya"
+  resume_mastodon_url:          "https://mstdn.social/@aarya"
 
 
 resume_print_social_links:      true
