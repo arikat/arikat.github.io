@@ -55,13 +55,18 @@ citation_metrics:
   i10_index: "14"
 
 selected_publications:
+  - title: "GapClean: Memory-Efficient Gap Removal for Large-Scale Multiple Sequence Alignments"
+    authors: "<strong><strong>A Venkat</strong></strong>"
+    venue: "bioRxiv"
+    year: 2026
+
   - title: "Glydentify: An explainable deep learning platform for glycosyltransferase donor substrate prediction"
-    authors: "R Fang, L Na, CJ Corulli, PK Prabhakar, SJ Berardinelli, A Venkat, et al."
+    authors: "R Fang, L Na, CJ Corulli, PK Prabhakar, SJ Berardinelli, <strong><strong>A Venkat</strong></strong>, et al."
     venue: "bioRxiv"
     year: 2026
 
   - title: "ICEPIC: A Toolkit to Discover Ice Binding Proteins from Sequence"
-    authors: "J Zhang, S Suresh, S Gleizer, S Ewens, A Venkat, V Zulkower, T Biernacki, et al."
+    authors: "J Zhang, S Suresh, S Gleizer, S Ewens, <strong>A Venkat</strong>, V Zulkower, T Biernacki, et al."
     venue: "bioRxiv"
     year: 2025
 
@@ -71,22 +76,22 @@ selected_publications:
     year: 2025
 
   - title: "Glydentify, a deep learning tool for classifying glycosyltransferase function"
-    authors: "A Venkat, R Fang, Z Zhou, S Gill, N Kannan"
+    authors: "<strong>A Venkat</strong>, R Fang, Z Zhou, S Gill, N Kannan"
     venue: "GLYCOBIOLOGY 34 (11)"
     year: 2024
 
   - title: "Glydentify, a tool for unsupervised classification of glycosyltransferase function"
-    authors: "A Venkat, N Kannan"
+    authors: "<strong>A Venkat</strong>, N Kannan"
     venue: "GLYCOBIOLOGY 33 (11)"
     year: 2023
 
   - title: "XAI meets biology: a comprehensive review of explainable AI in bioinformatics applications"
-    authors: "Z Zhou, M Hu, M Salcedo, N Gravel, W Yeung, A Venkat, D Guo, J Zhang, et al."
+    authors: "Z Zhou, M Hu, M Salcedo, N Gravel, W Yeung, <strong>A Venkat</strong>, D Guo, J Zhang, et al."
     venue: "arXiv preprint"
     year: 2023
 
   - title: "Principles of Modularity in Enzyme Evolution"
-    authors: "A Venkat"
+    authors: "<strong>A Venkat</strong>"
     venue: "University of Georgia (Dissertation)"
     year: 2023
 
@@ -96,17 +101,17 @@ selected_publications:
     year: 2023
 
   - title: "Prevalence and homology of the pneumococcal serine-rich repeat protein at the global scale"
-    authors: "J Aceil, A Venkat, E Pan, N Kannan, FY Avci"
+    authors: "J Aceil, <strong>A Venkat</strong>, E Pan, N Kannan, FY Avci"
     venue: "Microbiology Spectrum 11 (3)"
     year: 2023
 
   - title: "Evolution of fold-A glycosyltransferases and GTXplorer, a new tool for comparative glycomics"
-    authors: "A Venkat, D Tehrani, R Taujale, W Yeung, S Soleymani, A Priyadarshi, et al."
+    authors: "<strong>A Venkat</strong>, D Tehrani, R Taujale, W Yeung, S Soleymani, A Priyadarshi, et al."
     venue: "Journal of Biological Chemistry 299 (3)"
     year: 2023
 
   - title: "Mechanistic and evolutionary insights into isoform-specific 'supercharging' in DCLK family kinases"
-    authors: "A Venkat, G Watterson, DP Byrne, BO Boyle, S Shrestha, N Gravel, et al."
+    authors: "<strong>A Venkat</strong>, G Watterson, DP Byrne, BO Boyle, S Shrestha, N Gravel, et al."
     venue: "eLife"
     year: 2023
 
@@ -116,37 +121,37 @@ selected_publications:
     year: 2023
 
   - title: "Polymerization of the backbone of the pectic polysaccharide rhamnogalacturonan I"
-    authors: "RA Amos, MA Atmodjo, C Huang, Z Gao, A Venkat, R Taujale, N Kannan, et al."
+    authors: "RA Amos, MA Atmodjo, C Huang, Z Gao, <strong>A Venkat</strong>, R Taujale, N Kannan, et al."
     venue: "Nature Plants 8 (11)"
     year: 2022
 
   - title: "Modularity of the hydrophobic core and evolution of functional diversity in fold A glycosyltransferases"
-    authors: "A Venkat, D Tehrani, R Taujale, W Yeung, N Gravel, KW Moremen, et al."
+    authors: "<strong>A Venkat</strong>, D Tehrani, R Taujale, W Yeung, N Gravel, KW Moremen, et al."
     venue: "Journal of Biological Chemistry 298 (8)"
     year: 2022
 
   - title: "Mapping sequence-structure-function relationships in glycosyltransferases using deep learning models and data visualization tools"
-    authors: "N Kannan, R Taujale, Z Zhou, A Venkat, S Soleymani, A Priyadarshi, et al."
+    authors: "N Kannan, R Taujale, Z Zhou, <strong>A Venkat</strong>, S Soleymani, A Priyadarshi, et al."
     venue: "GLYCOBIOLOGY 31 (12)"
     year: 2021
 
   - title: "Hydrophobic core variations distinguishing mechanistic divergence of fold a glycosyltransferases"
-    authors: "A Venkat, R Taujale, W Yeung, N Gravel, K Moremen, N Kannan, et al."
+    authors: "<strong>A Venkat</strong>, R Taujale, W Yeung, N Gravel, K Moremen, N Kannan, et al."
     venue: "GLYCOBIOLOGY 31 (12)"
     year: 2021
 
   - title: "Evolution of functional diversity in the holozoan tyrosine kinome"
-    authors: "W Yeung, A Kwon, R Taujale, C Bunn, A Venkat, N Kannan"
+    authors: "W Yeung, A Kwon, R Taujale, C Bunn, <strong>A Venkat</strong>, N Kannan"
     venue: "Molecular Biology and Evolution 38 (12)"
     year: 2021
 
   - title: "GTXplorer: A portal to navigate and visualize the evolutionary information encoded in fold A glycosyltransferases"
-    authors: "R Taujale, S Soleymani, A Priyadarshi, A Venkat, W Yeung, KJ Kochut, et al."
+    authors: "R Taujale, S Soleymani, A Priyadarshi, <strong>A Venkat</strong>, W Yeung, KJ Kochut, et al."
     venue: "Glycobiology 31 (11)"
     year: 2021
 
   - title: "KinOrtho: a method for mapping human kinase orthologs across the tree of life and illuminating understudied kinases"
-    authors: "LC Huang, R Taujale, N Gravel, A Venkat, W Yeung, DP Byrne, PA Eyers, et al."
+    authors: "LC Huang, R Taujale, N Gravel, <strong>A Venkat</strong>, W Yeung, DP Byrne, PA Eyers, et al."
     venue: "BMC Bioinformatics 22 (1)"
     year: 2021
 
@@ -156,32 +161,32 @@ selected_publications:
     year: 2021
 
   - title: "Peters plus syndrome mutations affect the function and stability of human β1, 3-glucosyltransferase"
-    authors: "A Zhang, A Venkat, R Taujale, JL Mull, A Ito, N Kannan, RS Haltiwanger"
+    authors: "A Zhang, <strong>A Venkat</strong>, R Taujale, JL Mull, A Ito, N Kannan, RS Haltiwanger"
     venue: "Journal of Biological Chemistry 297 (1)"
     year: 2021
 
   - title: "Quantitative Structure–Mutation–Activity Relationship Tests (QSMART) model for protein kinase inhibitor response prediction"
-    authors: "LC Huang, W Yeung, Y Wang, H Cheng, A Venkat, S Li, P Ma, K Rasheed, et al."
+    authors: "LC Huang, W Yeung, Y Wang, H Cheng, <strong>A Venkat</strong>, S Li, P Ma, K Rasheed, et al."
     venue: "BMC Bioinformatics 21 (1)"
     year: 2020
 
   - title: "Deep evolutionary analysis reveals the design principles of fold A glycosyltransferases"
-    authors: "R Taujale, A Venkat, LC Huang, W Yeung, K Rasheed, AS Edison, et al."
+    authors: "R Taujale, <strong>A Venkat</strong>, LC Huang, W Yeung, K Rasheed, AS Edison, et al."
     venue: "eLife"
     year: 2020
 
   - title: "PathInsight: A Novel Tool for Modeling Biomolecular Pathways"
-    authors: "A Venkat"
+    authors: "<strong>A Venkat</strong>"
     venue: "University of California, San Diego (Thesis)"
     year: 2017
 
   - title: "Influence of water hardness on accumulation and effects of silver in the green alga, Raphidocelis subcapitata"
-    authors: "A Venkat, AL Amerson, GK Bielmyer-Fraser"
+    authors: "<strong>A Venkat</strong>, AL Amerson, GK Bielmyer-Fraser"
     venue: "Georgia Journal of Science 74 (2)"
     year: 2016
 
   - title: "Quantitative analysis of the trends exhibited by the three interdisciplinary biological sciences: biophysics, bioinformatics, and systems biology"
-    authors: "J Kang, S Park, A Venkat, A Gopinath"
+    authors: "J Kang, S Park, <strong>A Venkat</strong>, A Gopinath"
     venue: "Journal of Microbiology & Biology Education 16 (2)"
     year: 2015
 
