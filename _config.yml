@@ -56,12 +56,12 @@ citation_metrics:
 
 selected_publications:
   - title: "GapClean: Memory-Efficient Gap Removal for Large-Scale Multiple Sequence Alignments"
-    authors: "<strong><strong>A Venkat</strong></strong>"
+    authors: "<strong>A Venkat</strong>"
     venue: "bioRxiv"
     year: 2026
 
   - title: "Glydentify: An explainable deep learning platform for glycosyltransferase donor substrate prediction"
-    authors: "R Fang, L Na, CJ Corulli, PK Prabhakar, SJ Berardinelli, <strong><strong>A Venkat</strong></strong>, et al."
+    authors: "R Fang, L Na, CJ Corulli, PK Prabhakar, SJ Berardinelli, <strong>A Venkat</strong>, et al."
     venue: "bioRxiv"
     year: 2026
 
