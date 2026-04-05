@@ -45,6 +45,24 @@ resume_social_links:
 
 resume_print_social_links:      true
 
+# Publications page configuration
+google_scholar_url: "https://scholar.google.com/citations?user=PzmCmXoAAAAJ&hl=en"
+publications_page_intro: "My research focuses on protein engineering, computational biology, and machine learning applications in structural biology."
+
+citation_metrics:
+  total_citations: "XXX"  # Update with current count
+  h_index: "XX"           # Update with current h-index
+  i10_index: "XX"         # Update with current i10-index
+
+# Optional: Add selected publications here
+# selected_publications:
+#   - title: "Publication title"
+#     authors: "Author list"
+#     venue: "Journal or conference name"
+#     year: 2026
+#     citations: 123
+#     url: "https://doi.org/..."
+
 # Tools page configuration
 tools_page_intro: "Software tools and resources I've developed for structural biology, bioinformatics, and machine learning."
 tools:

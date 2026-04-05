@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+
+    {% include navigation.html %}
+
+    <div class="wrapper publications-page">
+
+      <header class="page-header">
+        <h1 class="header-name">Publications</h1>
+
+        {% if site.publications_page_intro %}
+        <div class="executive-summary">
+          <p>{{ site.publications_page_intro }}</p>
+        </div>
+        {% endif %}
+
+        <!-- Google Scholar Link -->
+        <div class="scholar-link">
+          <a href="{{ site.google_scholar_url }}" target="_blank" class="scholar-button">
+            View Full Profile on Google Scholar →
+          </a>
+        </div>
+      </header>
+
+      <section class="content-section">
+
+        <!-- Citation Metrics -->
+        {% if site.citation_metrics %}
+        <div class="metrics-container">
+          <div class="metric-card">
+            <div class="metric-value">{{ site.citation_metrics.total_citations }}</div>
+            <div class="metric-label">Total Citations</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">{{ site.citation_metrics.h_index }}</div>
+            <div class="metric-label">h-index</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">{{ site.citation_metrics.i10_index }}</div>
+            <div class="metric-label">i10-index</div>
+          </div>
+        </div>
+        {% endif %}
+
+        <!-- Selected Publications -->
+        {% if site.selected_publications %}
+        <div class="selected-publications">
+          <h2>Selected Publications</h2>
+          {% assign sorted_pubs = site.selected_publications | sort: "year" | reverse %}
+          {% for pub in sorted_pubs %}
+          <div class="resume-item publication-item">
+            <h3 class="publication-title">
+              {% if pub.url %}
+                <a href="{{ pub.url }}" target="_blank">{{ pub.title }}</a>
+              {% else %}
+                {{ pub.title }}
+              {% endif %}
+            </h3>
+            <p class="publication-authors">{{ pub.authors }}</p>
+            <p class="publication-venue">
+              <em>{{ pub.venue }}</em>{% if pub.year %}, {{ pub.year }}{% endif %}
+            </p>
+            {% if pub.citations %}
+            <p class="publication-citations">Cited by {{ pub.citations }}</p>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+      </section>
+
+      <footer class="page-footer">
+        <p class="footer-line">
+          <a href="/">← Back to Home</a>
+        </p>
+      </footer>
+
+    </div>
+
+  </body>
+
+</html>
