@@ -60,17 +60,17 @@ tools:
     tech: "PyTorch, SaProt, ESM2, UniMol, Docker"
     year: 2026
 
-  - name: "GapClean"
-    description: "A bioinformatics tool for cleaning multiple sequence alignments by removing gap-heavy columns. Supports threshold-based column removal and reference sequence-based gap removal for mutation analysis."
-    url: "https://github.com/arikat/GapClean"
-    tech: "Python, FASTA"
-    year: 2025
-
   - name: "CoNaN-blast"
     description: "A proof-of-concept neural network tool for protein sequence similarity searching using deep learning instead of traditional alignment. Encodes proteins into vector embeddings and performs nearest-neighbor searches to detect structural or functional similarities."
     url: "https://github.com/arikat/conan-blast"
     tech: "PyTorch, CNN, NumPy"
     year: 2025
+    
+  - name: "GapClean"
+    description: "A bioinformatics tool for cleaning multiple sequence alignments by removing gap-heavy columns. Supports threshold-based column removal and reference sequence-based gap removal for mutation analysis."
+    url: "https://github.com/arikat/GapClean"
+    tech: "Python, FASTA"
+    year: 2024
 
   - name: "GTxplorer"
     description: "An interactive web database portal for navigating and visualizing evolutionary information within fold A glycosyltransferases. Provides hierarchical classification exploration, sequence alignments, and taxonomic distribution analysis across 9 major clades and 53 families."
