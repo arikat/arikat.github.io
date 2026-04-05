@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+
+    {% include navigation.html %}
+
+    <div class="wrapper tools-page">
+
+      <header class="page-header">
+        <h1 class="header-name">Tools & Projects</h1>
+
+        {% if site.tools_page_intro %}
+        <div class="executive-summary">
+          <p>{{ site.tools_page_intro }}</p>
+        </div>
+        {% endif %}
+      </header>
+
+      <section class="content-section">
+
+        {% if site.tools %}
+        <!-- Tools from config -->
+        {% for tool in site.tools %}
+        <div class="resume-item tool-item">
+          <h3 class="resume-item-title">
+            {% if tool.url %}
+              <a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a>
+            {% else %}
+              {{ tool.name }}
+            {% endif %}
+          </h3>
+          {% if tool.tech %}
+          <h4 class="resume-item-details">{{ tool.tech }}</h4>
+          {% endif %}
+          <p class="resume-item-copy">{{ tool.description }}</p>
+        </div>
+        {% endfor %}
+        {% else %}
+        <!-- Placeholder content if no tools configured -->
+        <div class="resume-item">
+          <p class="resume-item-copy">
+            Add your tools to <code>_config.yml</code> under the <code>tools:</code> section to display them here.
+          </p>
+          <p class="resume-item-copy">Example:</p>
+          <pre style="background: #f5f5f5; padding: 15px; border-radius: 4px; overflow-x: auto;">
+tools:
+  - name: "Tool Name"
+    description: "Description of what the tool does"
+    url: "https://github.com/username/repo"
+    tech: "Python, Docker, React"
+          </pre>
+        </div>
+        {% endif %}
+
+      </section>
+
+      <footer class="page-footer">
+        <p class="footer-line">
+          <a href="/">← Back to Home</a>
+        </p>
+      </footer>
+
+    </div>
+
+  </body>
+
+</html>

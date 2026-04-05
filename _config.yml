@@ -45,6 +45,39 @@ resume_social_links:
 
 resume_print_social_links:      true
 
+# Tools page configuration
+tools_page_intro: "Software tools and resources I've developed for structural biology, bioinformatics, and machine learning."
+tools:
+  - name: "Sicifus"
+    description: "A Python library for large-scale structural biology analysis that processes thousands of protein structures efficiently using Parquet databases. Enables structural alignment, phylogenetic analysis, binding pocket identification, and physics-based mutation predictions on massive datasets through lazy evaluation."
+    url: "https://github.com/arikat/sicifus"
+    tech: "Python, Polars, OpenMM, Parquet"
+
+  - name: "Glydentify"
+    description: "A deep learning framework that predicts glycosyltransferase donor substrates by combining structure-aware protein language models with molecular representations. Utilizes advanced neural architectures to understand both protein sequences and 3D structures."
+    url: "https://github.com/arikat/Glydentify"
+    tech: "PyTorch, SaProt, ESM2, UniMol, Docker"
+
+  - name: "GTxplorer"
+    description: "An interactive web database portal for navigating and visualizing evolutionary information within fold A glycosyltransferases. Provides hierarchical classification exploration, sequence alignments, and taxonomic distribution analysis across 9 major clades and 53 families."
+    url: "https://github.com/arikat/GTxplorer"
+    tech: "React, JavaScript, Python, Netlify"
+
+  - name: "CoNaN-blast"
+    description: "A proof-of-concept neural network tool for protein sequence similarity searching using deep learning instead of traditional alignment. Encodes proteins into vector embeddings and performs nearest-neighbor searches to detect structural or functional similarities."
+    url: "https://github.com/arikat/conan-blast"
+    tech: "PyTorch, CNN, NumPy"
+
+  - name: "PathInsight"
+    description: "A Cytoscape application for modeling how small molecule binders affect signaling pathways. Enables simulation of pathway perturbations with support for multi-step analysis, KEGG pathway integration, and Systems Biology Graphical Notation visualization."
+    url: "https://github.com/arikat/PathInsight"
+    tech: "Java, Cytoscape, Maven"
+
+  - name: "GapClean"
+    description: "A bioinformatics tool for cleaning multiple sequence alignments by removing gap-heavy columns. Supports threshold-based column removal and reference sequence-based gap removal for mutation analysis."
+    url: "https://github.com/arikat/GapClean"
+    tech: "Python, FASTA"
+
 # Design settings
 resume_theme:                   default
 
