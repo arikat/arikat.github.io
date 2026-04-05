@@ -1,0 +1,107 @@
+// Art gallery styles (converted from album.css)
+
+.art-page {
+  min-height: 75rem;
+
+  .album {
+    min-height: 50rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: #f7f7f7;
+    margin-top: 2rem;
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -0.75rem;
+    }
+  }
+
+  .card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-sizing: border-box;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: .75rem;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  }
+
+  .card-text {
+    font-size: 0.875rem;
+    text-align: center;
+    color: #666;
+  }
+
+  // Responsive layout
+  @media (max-width: 768px) {
+    .card {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card {
+      width: 100%;
+    }
+  }
+}
+
+// Modal styles for image viewing
+.art-modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+
+  .modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: zoom 0.3s;
+  }
+
+  @keyframes zoom {
+    from {transform: translateY(-50%) scale(0.8)}
+    to {transform: translateY(-50%) scale(1)}
+  }
+
+  .close-modal {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 2001;
+
+    &:hover,
+    &:focus {
+      color: #bbb;
+    }
+  }
+}

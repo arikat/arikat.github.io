@@ -22,8 +22,9 @@
       <section class="content-section">
 
         {% if site.tools %}
-        <!-- Tools from config -->
-        {% for tool in site.tools %}
+        <!-- Tools from config, sorted by year (most recent first) -->
+        {% assign sorted_tools = site.tools | sort: "year" | reverse %}
+        {% for tool in sorted_tools %}
         <div class="resume-item tool-item">
           <h3 class="resume-item-title">
             {% if tool.url %}
@@ -32,9 +33,9 @@
               {{ tool.name }}
             {% endif %}
           </h3>
-          {% if tool.tech %}
-          <h4 class="resume-item-details">{{ tool.tech }}</h4>
-          {% endif %}
+          <h4 class="resume-item-details">
+            {% if tool.tech %}{{ tool.tech }}{% endif %}{% if tool.tech and tool.year %} &bull; {% endif %}{% if tool.year %}{{ tool.year }}{% endif %}
+          </h4>
           <p class="resume-item-copy">{{ tool.description }}</p>
         </div>
         {% endfor %}
@@ -51,6 +52,7 @@ tools:
     description: "Description of what the tool does"
     url: "https://github.com/username/repo"
     tech: "Python, Docker, React"
+    year: 2026
           </pre>
         </div>
         {% endif %}
